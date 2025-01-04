@@ -11,73 +11,73 @@ const cclogo = document.getElementById('cclogo');
 if (users.length === 0) {
     if (cclogo) {
         cclogo.onclick = function () {
-            window.location.href = "html/signup.html";
+            window.location.href = "signup.html";
         };
     }
     if (about) {
         about.onclick = function () {
-            window.location.href = "html/signup.html";
+            window.location.href = "signup.html";
         };
     }
     if (academic) {
         academic.onclick = function () {
-            window.location.href = "html/signup.html";
+            window.location.href = "signup.html";
         };
     }
     if (hobby) {
         hobby.onclick = function () {
-            window.location.href = "html/signup.html";
+            window.location.href = "signup.html";
         };
     }
     if (contact) {
         contact.onclick = function () {
-            window.location.href = "html/signup.html";
+            window.location.href = "signup.html";
         };
     }
     if (loginbtn) {
         loginbtn.onclick = function () {
-            window.location.href = "html/signup.html";
+            window.location.href = "signup.html";
         };
     }
     if (signupbtn) {
         signupbtn.onclick = function () {
-            window.location.href = "html/signup.html";
+            window.location.href = "signup.html";
         };
     }
 } else {
     if (cclogo) {
         cclogo.onclick = function () {
-            window.location.href = "html/html.html";
+            window.location.href = "html.html";
         };
     }
     if (about) {
         about.onclick = function () {
-            window.location.href = "html/aboutunfinish.html";
+            window.location.href = "aboutunfinish.html";
         };
     }
     if (academic) {
         academic.onclick = function () {
-            window.location.href = "html/ctu.html";
+            window.location.href = "ctu.html";
         };
     }
     if (hobby) {
         hobby.onclick = function () {
-            window.location.href = "html/hobbyunfi.html";
+            window.location.href = "hobbyunfi.html";
         };
     }
     if (contact) {
         contact.onclick = function () {
-            window.location.href = "html/contact.html";
+            window.location.href = "contact.html";
         };
     }
     if (loginbtn) {
         loginbtn.onclick = function () {
-            window.location.href = "html/main.html";
+            window.location.href = "main.html";
         };
     }
     if (signupbtn) {
         signupbtn.onclick = function () {
-            window.location.href = "html/signup.html";
+            window.location.href = "signup.html";
         };
     }
 };
