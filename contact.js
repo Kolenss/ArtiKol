@@ -4,14 +4,20 @@ var academic = document.getElementById('academic');
 var hobby = document.getElementById('hobby');
 var contact = document.getElementById('contact');
 var cclogo = document.getElementById('cclogo');
-
-
 var loginbtn = document.getElementById('loginbtn');
 var signupbtn = document.getElementById('signupbtn');
+var submit = document.getElementById('submitbtn');
+
+var firstname = document.getElementById('firstname');
+var lastname = document.getElementById('lastname');
+var email = document.getElementById('email');
+var concern = document.getElementById('concern');
+
+
+
 cclogo.onclick = function(){
     window.location.href = "index.html";
 }
-
 about.onclick = function(){
     window.location.href = "aboutunfinish.html";
 }
@@ -30,6 +36,17 @@ signupbtn.onclick = function () {
 loginbtn.onclick = function () {
     window.location.href = "main.html";
 }
+submit.onclick = function(){
+    alert("Feedback has been submitted, Thank you!");
+    email.value = "";
+    firstname.value = "";
+    lastname.value = "";
+    concern.value = "";
+
+}
+
+
+
 
 var facebook = document.getElementById('facebook');
 var instagram = document.getElementById('instagram');
