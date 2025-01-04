@@ -4,13 +4,19 @@ var academic = document.getElementById('academic');
 var hobby = document.getElementById('hobby');
 var contact = document.getElementById('contact');
 var cclogo = document.getElementById('cclogo');
+
 var loginbtn = document.getElementById('loginbtn');
 var signupbtn = document.getElementById('signupbtn');
 
 cclogo.onclick = function(){
     window.location.href = "index.html";
 }
-
+signupbtn.onclick = function () {
+    window.location.href = "signup.html";
+}
+loginbtn.onclick = function () {
+    window.location.href = "main.html";
+}
 
 about.onclick = function(){
     window.location.href = "aboutunfinish.html";
@@ -23,12 +29,6 @@ hobby.onclick = function(){
 }
 contact.onclick = function(){
     window.location.href = "contact.html";
-}
-signupbtn.onclick = function () {
-    window.location.href = "signup.html";
-}
-loginbtn.onclick = function () {
-    window.location.href = "main.html";
 }
 
 albion.onclick = function() {
