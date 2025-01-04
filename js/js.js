@@ -57,7 +57,7 @@ if (users.length === 0) {
     }
     if (academic) {
         academic.onclick = function () {
-            window.location.href = "ctu.html";
+            window.location.href = "html/ctu.html";
         };
     }
     if (hobby) {

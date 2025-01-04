@@ -1,6 +1,11 @@
 const usernameInput = document.getElementById("user");
 const passwordInput = document.getElementById("password");
 const signinBtn = document.getElementById("mainsignin");
+const register = document.getElementById("mainsignup");
+
+register.onclick = function(){
+    window.location.href = "signup.html";
+}
 
 if (signinBtn) {
     signinBtn.onclick = function () {

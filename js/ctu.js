@@ -26,7 +26,12 @@ var cclogo = document.getElementById('cclogo');
 cclogo.onclick = function(){
     window.location.href = "index.html";
 }
-
+signupbtn.onclick = function () {
+    window.location.href = "signup.html";
+}
+loginbtn.onclick = function () {
+    window.location.href = "main.html";
+}
 
 about.onclick = function(){
     window.location.href = "aboutunfinish.html";
