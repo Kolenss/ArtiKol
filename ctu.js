@@ -22,7 +22,6 @@ var loginbtn = document.getElementById('loginbtn');
 var signupbtn = document.getElementById('signupbtn');
 var cclogo = document.getElementById('cclogo');
 
-
 cclogo.onclick = function(){
     window.location.href = "index.html";
 }
@@ -45,7 +44,6 @@ hobby.onclick = function(){
 contact.onclick = function(){
     window.location.href = "contact.html";
 }
-
 
 visit.onclick = function() {
     contentimg.style.background = "none";
