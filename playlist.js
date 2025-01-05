@@ -87,7 +87,7 @@ let songIds = [
 let originalSongIds = [...songIds];
 
 musiclogo.onclick = function(){
-  window.location.href = "signup.html";
+  window.location.href = "aboutunfinish.html";
 }
 
 function loadSongById(songId) {
