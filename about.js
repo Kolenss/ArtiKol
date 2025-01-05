@@ -36,6 +36,9 @@ signupbtn.onclick = function () {
 loginbtn.onclick = function () {
     window.location.href = "main.html";
 }
+mp3.onclick = function () {
+    window.location.href = "playlist.html";
+}
 
 check.onclick = function(){
     document.getElementById('cats').classList.remove('hidden');
@@ -58,7 +61,4 @@ random.onclick = function(){
     document.getElementById('random').classList.add('hidden');
     document.getElementById('mp3').classList.add('hidden');
     document.getElementById('dice').classList.remove('hidden');
-}
-mp3.onclick = function () {
-    window.location.href = "playlist.html";
 }
