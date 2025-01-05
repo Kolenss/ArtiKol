@@ -59,6 +59,6 @@ random.onclick = function(){
     document.getElementById('mp3').classList.add('hidden');
     document.getElementById('dice').classList.remove('hidden');
 }
-mp3.onclick = function(){
-    windows.location.href = ""
+mp3.onclick = function () {
+    window.location.href = "playlist.html";
 }
