@@ -62,3 +62,4 @@ random.onclick = function(){
     document.getElementById('mp3').classList.add('hidden');
     document.getElementById('dice').classList.remove('hidden');
 }
+
