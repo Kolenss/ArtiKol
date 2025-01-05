@@ -8,7 +8,7 @@ var iframe = document.getElementById('iframe');
 
 var cat = document.getElementById('catsimg');
 var random = document.getElementById('randomimg');
-var mp3 = document.getElementById('mp3img');
+var mp3 = document.getElementById('mp3');
 var check = document.getElementById('check');
 var cclogo = document.getElementById('cclogo');
 
